@@ -19,7 +19,7 @@ const theme: Theme = {
     desktop: `screen and (min-width: ${breakpoints.desktop}px)`,
   },
   fonts: {
-    primary: 'Lato',
+    lato: 'Lato',
     secondary: 'Arial',
   },
 };

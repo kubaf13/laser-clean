@@ -18,7 +18,7 @@ export interface Theme {
     [key in ViewportName]: string;
   };
   fonts: {
-    primary: string;
+    lato: string;
     secondary: string;
   };
 }
