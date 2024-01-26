@@ -11,6 +11,21 @@ const theme: Theme = {
   palette: {
     primary: '#000',
     secondary: '#fff',
+    brownPalette: {
+      '100': '#6B5844',
+      '200': '#9A856f',
+      '300': '#ffe6cf',
+    },
+    accentPalette: {
+      '100': '#CDAF85',
+      '200': '#CDAF85',
+      '300': '#5D4A2B',
+    },
+    darkPalette: {
+      '100': '#000',
+      '200': '#161616',
+      '300': '#2c2c2c',
+    },
     grey: '#3F3F3F',
     gradients: {
       basic:
