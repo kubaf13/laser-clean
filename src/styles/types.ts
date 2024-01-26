@@ -5,10 +5,20 @@ declare module 'styled-components' {
 }
 
 export type ViewportName = 'desktop' | 'tablet' | 'mobile';
+export type Variants = '100' | '200' | '300';
 
 export interface Palette {
   primary: string;
   secondary: string;
+  brownPalette: {
+    [key in Variants]: string;
+  };
+  accentPalette: {
+    [key in Variants]: string;
+  };
+  darkPalette: {
+    [key in Variants]: string;
+  };
   grey: string;
   gradients: {
     basic: string;
