@@ -9,6 +9,10 @@ export type ViewportName = 'desktop' | 'tablet' | 'mobile';
 export interface Palette {
   primary: string;
   secondary: string;
+  grey: string;
+  gradients: {
+    basic: string;
+  };
 }
 
 export interface Theme {
@@ -19,6 +23,6 @@ export interface Theme {
   };
   fonts: {
     lato: string;
-    secondary: string;
+    brunoAce: string;
   };
 }

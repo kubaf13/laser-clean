@@ -11,6 +11,11 @@ const theme: Theme = {
   palette: {
     primary: '#000',
     secondary: '#fff',
+    grey: '#3F3F3F',
+    gradients: {
+      basic:
+        'linear-gradient(90deg,rgba(255, 255, 255, 1) 0%,rgba(107, 88, 68, 1) 51.42%);',
+    },
   },
   maxWidth: `${breakpoints.maxWidth}px`,
   media: {
@@ -20,7 +25,7 @@ const theme: Theme = {
   },
   fonts: {
     lato: 'Lato',
-    secondary: 'Arial',
+    brunoAce: 'Bruno Ace',
   },
 };
 
